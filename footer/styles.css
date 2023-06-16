@@ -4,7 +4,7 @@
 }
 
 footer {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: center;
     background-color: black;
     color: #fff;
@@ -21,13 +21,18 @@ footer {
 }
 
 .fb:hover {
-    color: blue;
+    color: lightcoral;
 }
 
 .link:hover {
-    color: lightblue;
+    color: lightcoral;
 }
 
 .insta:hover {
     color: lightcoral;
+}
+@media screen and (max-width:600px){
+    footer p{
+        font-size: 0.9rem;
+    }
 }
