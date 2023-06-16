@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 5% 7%;
+}
+
+.icons {
+    padding-bottom: 5%;
+}
+
+.icon {
+    padding: 1%;
+    color: white;
+}
+
+.fb:hover {
+    color: blue;
+}
+
+.link:hover {
+    color: lightblue;
+}
+
+.insta:hover {
+    color: lightcoral;
+}
