@@ -11,6 +11,9 @@ header{
     background: url(bg-4.jpg) no-repeat center;
     background-size: cover;
 }
+.invisible {
+    visibility: hidden;
+}
 .main{
     padding: 2rem;
     background-color: #171717;
