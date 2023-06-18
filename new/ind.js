@@ -4,7 +4,10 @@ const menu=$(".menu");
 const offset=50;
 
 $("body").on("click", "#menu-btn", function () {
+  
   $(".menu").toggleClass("menu-open");
+  $("#menu-btn").toggleClass("changecol");
+  $(".brand").toggleClass("invisible");
   });
 window.addEventListener("scroll",function(){
     if(this.scrollY>offset){
